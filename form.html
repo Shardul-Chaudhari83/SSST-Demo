@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Application Form</title>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <td align = "left">
+                <img  src="./image/SSST 2.png" alt=" SSST" 
+                width=" 120px " height="120px" >
+            </td>
+            <td><br></td><td><br></td><td><br></td>
+            <td align="center">
+                <h1 style="color:rgb(0, 0, 162);" align="center">
+                    Sainik School Sujanpur Tira Admission Form 
+                    Session (2024-25) 
+                    
+                </h1>
+            </td>
+            <td><br></td><td><br></td><td><br></td>
+            <td align="Right">
+                <img   src="./image/SSS 2.png" alt=" SSS" 
+                width=" 120px " height="120px" >
+            </td>
+        </tr>
+    </table>
+
+<body style="background-color:powderblue;"></body>
+
+<br><br><br>
+<div>
+    <label for="name"> Candidate Name: </label>
+    <input type="text" id="name" placeholder="Enter your text">
+</div>
+<br>
+<div>
+    <label for="Gender">Select Gender:</label>
+    <input type="radio" id="male" name="Gender" value="male" >
+            <label for="male">male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">female </label>
+            <input type="radio" id="other" name="Gender" value="other">
+            <label for="other">other </label>
+</div>
+<br>
+<table align="right">
+    <tr>
+        <td><img src="./image/dp.jpg" alt="Default picture"></td>
+    </tr>
+    <tr>
+        <td><label for="picture">Choose picture:</label> <button>Select File</button></td>
+        <td></td>
+    </tr>
+    <tr>
+        
+    </tr>
+</table>
+
+
+<div>
+    <label for="Fname"> Father's Name:</label>
+    <input type="text" id="Fname" placeholder="Enter your Text">
+</div>
+<br>
+<div>
+    <label for="Mname"> Mother's Name:</label>
+    <input type="text" id="Mname" placeholder="Enter your Text">
+</div>
+<br>
+<div>
+    <label for="Date">Select date of Birth: </label>
+    <input type="date" >
+</div>
+<br>
+<div>
+    <label for="Catagory"> Catagory:</label>
+
+    <select name="Catagory " id="Catagory">
+        <option value="General">General</option>
+        <option value="OBC">OBC</option>
+        <option value=" SC/ST">SC/ST</option>
+    </select>
+    <br> <br>
+    <label for="comment">Permanent Adress:</label>
+    <br>
+<textarea name="comment" rows="10" cols="60"></textarea>
+</div>
+<br>
+
+<button onclick="test()">Submit</button>  
+<script src="brain.js"> </script>
+
+</body>
+</html>
